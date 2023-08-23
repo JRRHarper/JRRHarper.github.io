@@ -201,8 +201,8 @@ nav a:hover, nav [class*="fa-"]:hover  {
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
   padding: 1rem;
-  max-width: 670px;
-  max-height: 395px;
+  max-width: 100%;
+  max-height: auto;
 }
 
 #projects .reverse .text {
