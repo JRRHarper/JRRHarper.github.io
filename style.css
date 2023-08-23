@@ -139,6 +139,20 @@ nav a:hover, nav [class*="fa-"]:hover  {
   margin-top: 3rem;
 }
 
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 3rem;
+}
 
 /* Media Queries */
 
