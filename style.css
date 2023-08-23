@@ -89,6 +89,16 @@ nav a:hover, nav [class*="fa-"]:hover  {
   color: var(--magenta);
 }
 
+.button {
+  background-color: var(--magenta);
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
 /* Intro Styles */
 
 #intro {
@@ -127,4 +137,22 @@ nav a:hover, nav [class*="fa-"]:hover  {
 
 #email {
   margin-top: 3rem;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 850px) {
+  
+  nav {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+
 }
