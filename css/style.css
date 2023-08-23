@@ -120,8 +120,7 @@ nav a:hover, nav [class*="fa-"]:hover  {
 /* Intro Styles */
 
 #intro {
-  padding-bottom: 4rem 1rem 10rem 1rem;
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
