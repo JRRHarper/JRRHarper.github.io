@@ -42,12 +42,22 @@ a:hover {
   text-decoration: none;
 }
 
+/* background div colors */
+.section-plum {
+  background-color: var(--plum);
+}
+
+.gradient {
+  background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+  height: 2px;
+}
+
 /* Navbar */
 
 nav {
   font-family: var(--mono);
   font-size: 80%;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 nav h1 a {
@@ -91,9 +101,13 @@ nav a:hover, nav [class*="fa-"]:hover  {
 
 .button {
   background-color: var(--magenta);
-  padding: 0.3rem;
+  color: var(--white);
+  padding: 0.5rem;
   border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--mono);
 }
+
 .button:hover {
   color: var(--white);
   background-color: var(--hotmag);
@@ -102,7 +116,10 @@ nav a:hover, nav [class*="fa-"]:hover  {
 /* Intro Styles */
 
 #intro {
+  padding-bottom: 4rem 1rem 10rem 1rem;
   padding-bottom: 10rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -112,6 +129,7 @@ nav a:hover, nav [class*="fa-"]:hover  {
 
 #intro #name{
   font-family: var(--mono);
+  font-size: 1rem;
 }
 
 #name span {
@@ -119,6 +137,7 @@ nav a:hover, nav [class*="fa-"]:hover  {
   font-size: 4rem;
   color: var(--aqua);
   display: block;
+  font-weight: 300;
 }
 
 #intro h2 {
@@ -129,18 +148,21 @@ nav a:hover, nav [class*="fa-"]:hover  {
 /* Contact styles */
 
 #contact {
+  width: 400px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto; 
   padding: 3rem 0;
-  background-color: var(--plum);
 }
 
 #email {
   margin-top: 3rem;
 }
 
+/* Footer Styles */
+
 footer {
   text-align: center;
+  padding: 4rem 0;
 }
 
 footer ul {
